@@ -35,7 +35,8 @@ public class TestMVC{
 		Object[][] empdata = new Object[2][2];
 		int rowIndex = 0;
 
-		File xlsFile = new File("./Login.xls");
+		//File xlsFile = new File("./Login.xls");
+		File xlsFile = new File("C://Users//sayooj//.jenkins//workspace//TestMVC/Login.xls");
 		FileInputStream fin = null;
 		HSSFWorkbook book = null;
 		fin = new FileInputStream(xlsFile);
