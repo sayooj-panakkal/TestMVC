@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="eportal login test" >
+<listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+
+</listeners>
+  <test name="eportal Testing chrome" >
+    <classes>
+      <class name="com.htc.loginregtest.TestMVC"/>
+     </classes>
+ </test>
+ </suite>
